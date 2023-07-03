@@ -21,11 +21,22 @@
 // configurações
     // sessão
     // obs: essa ordem é muito importante
+    app.set("trust proxy", 1)
         app.use(session({
-            secret: "cursoNode",
+            cookie: {
+                secure: true,
+                maxAge: 6000
+            },
             resave: true,
+            secret: "cursoNode",
             saveUninitialized: true
         }))
+        app.use((req, res, next) => {
+            if(!req.session) {
+                return next(new Error("There was an internal error"))
+            }
+            next()
+        })
 
         app.use(passport.initialize())
         app.use(passport.session())
