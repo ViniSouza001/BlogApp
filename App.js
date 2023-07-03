@@ -60,7 +60,7 @@
 
     // Mongoose
     mongoose.Promise = global.Promise
-        mongoose.connect(db.mongoURI, {
+        mongoose.connect("mongodb+srv://blogapp-proj.tx1wvdy.mongodb.net/", {
             useNewUrlParser: true,
             useUnifiedTopology: true
         }).then(() => {
