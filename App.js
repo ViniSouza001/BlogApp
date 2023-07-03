@@ -124,7 +124,7 @@
             res.render("categories/index", {categorias: categorias})
         }).catch(err => {
             req.flash("error_msg", "There was an internal error listing categories")
-            res.redirect("/")
+            res.redirect("/login")
         })
     })
 
