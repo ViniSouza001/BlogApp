@@ -17,6 +17,8 @@
     require("./config/auth.js")(passport)
     const { admin } = require ("./helpers/admin.js")
     const db = require("./config/db.js")
+    import { initializeApp } from "firebase/app"
+    import { getAnalytics, getInitialized } from "firebase/analytics"
 
 // configurações
     // sessão
@@ -59,7 +61,18 @@
         })
     // Public
         app.use(express.static(path.join(__dirname, "public")))
-
+    // firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyAjvPb7Ld-SvtkSIm4gCf_komvnrpPYTQo",
+            authDomain: "blogapp-proj.firebaseapp.com",
+            projectId: "blogapp-proj",
+            storageBucket: "blogapp-proj.appspot.com",
+            messagingSenderId: "500151931297",
+            appId: "1:500151931297:web:2b073b79f5e4d9b6757be0",
+            measurementId: "G-QKZ1HJ117G"
+        }
+        const appFirebase = initializeApp(firebaseConfig)
+        const analytics = getAnalytics(appFirebase)
 // Rotas
     app.use('/admin', adminRouter);
 
