@@ -103,7 +103,7 @@ As principais linguagens utilizadas para desenvolver esse projeto foram:
 A seguir estão os frameworks utilizados no processo do desenvolvimento do BlogApp:
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-Facilitar a criação de um servidor
+Express: Facilita a criação de um servidor
 </div>
 <br>
 
@@ -112,7 +112,7 @@ npm install --save express
 ```
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-Programa que dá mais funcionalidades ao html (repetições, condições, ou ligá-lo com o MySQL)
+Handlebars: Programa que dá mais funcionalidades ao html (repetições, condições, ou ligá-lo com o MySQL)
 </div>
 <br>
 
@@ -122,7 +122,7 @@ npm install --save express-handlebars
 
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-Trabalhar com os dados vindo do cliente. Quando o cliente manda os dados via form payload, esse pacote formata e transforma os dados para o formato de objeto javascript e joga tudo isso em um objeto dentro do objeto de requisição: req.body
+Body-parser: Trabalhar com os dados vindo do cliente. Quando o cliente manda os dados via form payload, esse pacote formata e transforma os dados para o formato de objeto javascript e joga tudo isso em um objeto dentro do objeto de requisição: req.body
 </div>
 <br>
 
@@ -131,7 +131,7 @@ npm install --save body-parser
 ```
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-É uma biblioteca de programação orientada a objetos JavaScript que cria uma conexão entre o MongoDB e o ambiente de tempo de execução JavaScript Node.js
+Mongoose: É uma biblioteca de programação orientada a objetos JavaScript que cria uma conexão entre o MongoDB e o ambiente de tempo de execução JavaScript Node.js
 </div>
 <br>
 
@@ -141,7 +141,7 @@ npm install --save mongoose
 
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-Armazena os dados da sessão no servidor. Ele salva apenas o ID da sessão no cookie, não os dados da sessão. Por padrão, ele usa armazenamento em memória e não é projetado para um ambiente de produção
+Session: Armazena os dados da sessão no servidor. Ele salva apenas o ID da sessão no cookie, não os dados da sessão. Por padrão, ele usa armazenamento em memória e não é projetado para um ambiente de produção
 </div>
 <br>
 
@@ -151,7 +151,7 @@ npm install --save express-session
 
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-Um tipo de sessão que aparece apenas uma vez. Ele permite que os desenvolvedores enviem uma mensagem sempre que um usuário estiver sendo redirecionado para uma página da web especificada. Por exemplo uma mensagem de sucesso ao fazer login ou uma mensagem de senha inválida, etc... E quando a página é recarregada, a mensagem do flash some
+Flash: Um tipo de sessão que aparece apenas uma vez. Ele permite que os desenvolvedores enviem uma mensagem sempre que um usuário estiver sendo redirecionado para uma página da web especificada. Por exemplo uma mensagem de sucesso ao fazer login ou uma mensagem de senha inválida, etc... E quando a página é recarregada, a mensagem do flash some
 </div> 
 <br>
 
@@ -161,7 +161,7 @@ npm install --save connect-flash
 
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-Módulo que serve para a encriptação de dados. Usando o bcryptjs, o dado passa a ser criptografado como hash.
+bcryptjs: Módulo que serve para a encriptação de dados. Usando o bcryptjs, o dado passa a ser criptografado como hash.
 Hash é uma operação matemática que converte um arquivo de qualquer tamanho em um código de letras e números de tamanho fixo. Essa representação acaba sendo um tipo de "impressão digital" do arquivo.
 O bcrypt é um dos algoritmos mais seguros na atualidade, pois permite adicionar um código aleatório ao hash original, e também permite aumentar a dificuldade de decrifrar o hash por adicionar um salt.
 </div> 
@@ -172,7 +172,7 @@ npm install --save bcryptjs
 ```
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-Passport é um framework extremamente flexível e modular. Com ele você consegue fazer diversos tipos de autenticação (mais de 500 tipos) tais como: Google, Facebook, Instagram, Twitter, Github, LinkedIn, etc...
+Passport: Passport é um framework extremamente flexível e modular. Com ele você consegue fazer diversos tipos de autenticação (mais de 500 tipos) tais como: Google, Facebook, Instagram, Twitter, Github, LinkedIn, etc...
 </div> 
 <br>
 
@@ -182,7 +182,7 @@ npm install --save passport
 
 <div>
 <img width="30px" align="center" src="./imgs/pac_man.gif">
-Junto com o passport, é necessário instalar a estratégia que você irá usar para a autenticação. No caso desse projeto usaremos a estratégia local, portanto segue o código abaixo.
+Passport (local): Junto com o passport, é necessário instalar a estratégia que você irá usar para a autenticação. No caso desse projeto usaremos a estratégia local, portanto segue o código abaixo.
 </div>
 <br>
 
