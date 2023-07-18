@@ -1,5 +1,5 @@
 # BlogApp
-## Descrição
+## <img src="https://cdn-icons-png.flaticon.com/512/8655/8655461.png" width="35px" align="center"> Descrição
 Esse doi um projeto desenvolvido com a função de cadastramento de usuários, postagens e categorias de postagens, para que todos os usuários pudessem ver. Algumas funções do projeto são:
 <div>
     <img width="30px" align="center" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f8e7cb6-257a-4785-a420-51b3ef31892d/dfnemnj-c4089427-4907-4426-b93b-3aec6e05502e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmOGU3Y2I2LTI1N2EtNDc4NS1hNDIwLTUxYjNlZjMxODkyZFwvZGZuZW1uai1jNDA4OTQyNy00OTA3LTQ0MjYtYjkzYi0zYWVjNmUwNTUwMmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4KO7UB3C_kGhJNVi8BPrSWWoFSZ7LO-XAYGcRe2_HL4">
@@ -36,7 +36,7 @@ Esse doi um projeto desenvolvido com a função de cadastramento de usuários, p
     Pesquisas de postagens usando filtro de categorias existentes;
 </div>
 
-## Linguagens utilizadas
+## <img src="https://cdn-icons-png.flaticon.com/512/6214/6214248.png" width="30px" align="center"> Linguagens utilizadas
 As principais linguagens utilizadas para desenvolver esse projeto foram:
 <div>
   <img width="30px" align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -58,7 +58,7 @@ As principais linguagens utilizadas para desenvolver esse projeto foram:
   Bootstrap
 </div>
 
-## Principais habilidades
+## <img src="https://cdn-icons-png.flaticon.com/512/1462/1462401.png" width="40px" align="center"> Principais habilidades
 <div>
   <img width="30px" align="center" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f8e7cb6-257a-4785-a420-51b3ef31892d/dfnemnj-c4089427-4907-4426-b93b-3aec6e05502e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmOGU3Y2I2LTI1N2EtNDc4NS1hNDIwLTUxYjNlZjMxODkyZFwvZGZuZW1uai1jNDA4OTQyNy00OTA3LTQ0MjYtYjkzYi0zYWVjNmUwNTUwMmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4KO7UB3C_kGhJNVi8BPrSWWoFSZ7LO-XAYGcRe2_HL4"/>
     Organização de pastas: Fundamental para manter um projeto estruturado e fácil de navegar. Facilita a localização de arquivos, o trabalho em equipe e a manutenção do projeto a longo prazo.
@@ -99,7 +99,7 @@ As principais linguagens utilizadas para desenvolver esse projeto foram:
   Programação Orientada a Objetos: POO é um paradigma importante no desenvolvimento de software. Permite organizar o código em objetos independentes, promovendo reutilização, modularidade e facilitando a manutenção.
 </div>
 
-## FrameWorks
+## <img src="https://cdn-icons-png.flaticon.com/512/4727/4727231.png" width="50px" align="center"> FrameWorks
 A seguir estão os frameworks utilizados no processo do desenvolvimento do BlogApp:
 <div>
 <img align="center" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f8e7cb6-257a-4785-a420-51b3ef31892d/dfnemnj-c4089427-4907-4426-b93b-3aec6e05502e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmOGU3Y2I2LTI1N2EtNDc4NS1hNDIwLTUxYjNlZjMxODkyZFwvZGZuZW1uai1jNDA4OTQyNy00OTA3LTQ0MjYtYjkzYi0zYWVjNmUwNTUwMmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4KO7UB3C_kGhJNVi8BPrSWWoFSZ7LO-XAYGcRe2_HL4" width="30px">
@@ -190,7 +190,7 @@ Junto com o passport, é necessário instalar a estratégia que você irá usar 
 npm install --save passport-local
 ```
 
-## Observações
+## <img src="https://cdn-icons-png.flaticon.com/512/5745/5745551.png" align="center" width="30px" > Observações
 <div>
   <img width="30px" align="center" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f8e7cb6-257a-4785-a420-51b3ef31892d/dfnemnj-c4089427-4907-4426-b93b-3aec6e05502e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmOGU3Y2I2LTI1N2EtNDc4NS1hNDIwLTUxYjNlZjMxODkyZFwvZGZuZW1uai1jNDA4OTQyNy00OTA3LTQ0MjYtYjkzYi0zYWVjNmUwNTUwMmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4KO7UB3C_kGhJNVi8BPrSWWoFSZ7LO-XAYGcRe2_HL4"/>
   Não foi possível colocar o projeto BlogApp no ar, por conta de ainda estar havendo erros em conectar no banco de dados. Mas será feito o possível para que o projeto seja lançado e ser compartilhado para ser usado.
