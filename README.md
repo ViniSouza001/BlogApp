@@ -1,6 +1,6 @@
 # BlogApp
 ## <img src="./imgs/description.png" width="35px" align="center"> Descrição
-Esse doi um projeto desenvolvido com a função de cadastramento de usuários, postagens e categorias de postagens, para que todos os usuários pudessem ver. Algumas funções do projeto são:
+Esse foi um projeto desenvolvido com a função de cadastramento de usuários, postagens e categorias de postagens, para que todos os usuários pudessem ver. Algumas funções do projeto são:
 <div>
     <img width="30px" align="center" src="./imgs/pac_man.gif">
     Criação de contas;
