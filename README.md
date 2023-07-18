@@ -39,22 +39,22 @@ Esse doi um projeto desenvolvido com a função de cadastramento de usuários, p
 ## <img src="./imgs/program_lang.png" width="30px" align="center"> Linguagens utilizadas
 As principais linguagens utilizadas para desenvolver esse projeto foram:
 <div>
-  <img width="30px" align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img width="30px" align="center" src="./imgs/javascript.svg" />
   JavaScript
 </div>
 <br>
 <div>
-  <img width="30px" align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg" />
+  <img width="30px" align="center" src="./imgs/handlebars.svg" />
   Handlebars
 </div>
 <br>
 <div>
-  <img width="30px" align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />        
+  <img width="30px" align="center" src="./imgs/mongodb.svg" />        
   MongoDB
 </div>
 <br>
 <div>
-  <img align="center" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+  <img align="center" width="30px" src="./imgs/bootstrap.svg" />
   Bootstrap
 </div>
 
