@@ -23,10 +23,6 @@
     // obs: essa ordem é muito importante
     app.set("trust proxy", 1)
         app.use(session({
-            cookie: {
-                secure: true,
-                maxAge: 6000
-            },
             resave: true,
             secret: "cursoNode",
             saveUninitialized: true
@@ -60,7 +56,7 @@
 
     // Mongoose
     mongoose.Promise = global.Promise
-        mongoose.connect(db.mongoURI, {
+        mongoose.connect("mongodb+srv://vinisouza:hamster007@cluster0.sqc5ntr.mongodb.net/?retryWrites=true&w=majority", {
             useNewUrlParser: true,
             useUnifiedTopology: true
         }).then(() => {
