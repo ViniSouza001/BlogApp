@@ -21,7 +21,7 @@
 // configurações
     // sessão
     // obs: essa ordem é muito importante
-    app.set("trust proxy", 1)
+    // app.set("trust proxy", 1)
         app.use(session({
             resave: true,
             secret: "cursoNode",
@@ -53,10 +53,11 @@
     // Handlebars
         app.engine('handlebars', handlebars.engine({defaultLayout: 'main'}));
         app.set('view engine', 'handlebars');
+        app.set('views', path.join(__dirname, ("views")))
 
     // Mongoose
     mongoose.Promise = global.Promise
-        mongoose.connect("mongodb+srv://vinisouza:hamster007@cluster0.sqc5ntr.mongodb.net/?retryWrites=true&w=majority", {
+        mongoose.connect(db.mongoURI, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         }).then(() => {
