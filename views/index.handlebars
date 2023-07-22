@@ -7,7 +7,13 @@
   <p class="lead">Este é um blog desenvolvido com Node.js + Express + Handlebars</p>
   <hr class="my-4">
   <p>Aqui você pode ler sobre notícias do mundo da computação</p>
+
+{{#if userLogged}}
+  <div>Seja bem vindo {{userLogged.nome}}!!</div>
+{{else}}
   <a class="btn btn-primary btn-lg" href="/usuarios/registro" role="button">Crie sua conta</a>
+{{/if}}
+
 </div>
 <hr>
 <h2>Postagens recentes</h2>

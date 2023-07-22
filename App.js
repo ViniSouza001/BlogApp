@@ -21,7 +21,6 @@
 // configurações
     // sessão
     // obs: essa ordem é muito importante
-    // app.set("trust proxy", 1)
         app.use(session({
             resave: true,
             secret: "cursoNode",
@@ -92,10 +91,7 @@
                 req.flash("error_msg", "Sorry, there was an internal error")
                 res.redirect("/404")
             })
-        }
-
-        
-        
+        }       
     })
 
     app.get("/404", (req, res) => {
