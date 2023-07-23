@@ -189,9 +189,3 @@ Passport (local): Junto com o passport, é necessário instalar a estratégia qu
 ```shell
 npm install --save passport-local
 ```
-
-## <img src="./imgs/observation.png" align="center" width="30px" > Observações
-<div>
- <img width="30px" align="center" src="./imgs/pac_man.gif">
-  Não foi possível colocar o projeto BlogApp no ar, por conta de ainda estar havendo erros em conectar no banco de dados. Mas será feito o possível para que o projeto seja lançado e ser compartilhado para ser usado.
-</div>
