@@ -36,8 +36,8 @@ Esse foi um projeto desenvolvido com a função de cadastramento de usuários, p
     Pesquisas de postagens usando filtro de categorias existentes;
 </div>
 
-## <img src="./imgs/program_lang.png" width="30px" align="center"> Linguagens utilizadas
-As principais linguagens utilizadas para desenvolver esse projeto foram:
+## <img src="./imgs/program_lang.png" width="30px" align="center"> Linguagens e ferramentas
+As principais linguagens e ferramentas utilizadas para desenvolver esse projeto foram:
 <div>
   <img width="30px" align="center" src="./imgs/javascript.svg" />
   JavaScript
