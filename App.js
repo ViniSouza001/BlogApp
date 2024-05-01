@@ -21,6 +21,7 @@ const db = require("./config/db.js");
 // configurações
 // sessão
 // obs: essa ordem é muito importante
+
 // app.use(
 //   session({
 //     resave: true,
@@ -30,9 +31,7 @@ const db = require("./config/db.js");
 // );
 app.use(
   session({
-    cookie: { secure: true },
     secret: "cursoNode",
-    resave: false,
     saveUnitialized: true,
   })
 );
