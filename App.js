@@ -21,11 +21,19 @@ const db = require("./config/db.js");
 // configurações
 // sessão
 // obs: essa ordem é muito importante
+// app.use(
+//   session({
+//     resave: true,
+//     secret: "cursoNode",
+//     saveUninitialized: true,
+//   })
+// );
 app.use(
   session({
-    resave: true,
+    cookie: { secure: true },
     secret: "cursoNode",
-    saveUninitialized: true,
+    resave: false,
+    saveUnitialized: true,
   })
 );
 app.use((req, res, next) => {
